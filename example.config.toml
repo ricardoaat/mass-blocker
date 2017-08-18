@@ -1,0 +1,14 @@
+[Path]
+LogPath = "log/"
+
+[Services.leservice]
+Serviceaddrs = "le_host" #Prov02
+Serverport = "8080"
+ServiceEndpoint = "/some/endpoint/tofetch?wsdl"
+
+[databases.ledb]
+Host = "127.0.0.1"
+Port = "5446"
+DBname = "bd"
+Username = "bd"
+Password = "bd"
